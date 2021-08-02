@@ -22,7 +22,7 @@ function App() {
         
           <Nav/>
             <Switch>
-              <Route  path="/Home">
+              <Route exact path="/">
                 
                 <Homepage/>
                 <FeatureProducy/>

@@ -121,6 +121,35 @@ select{
     text-transform: capitalize;
     letter-spacing:0.1rem;
 }
+.div-cart 
+{
+  display: flex;
+  flex-direction: column;
+
+}
+.div-cart div 
+{
+  display: flex;
+  justify-content:space-between;
+}
+
+.div-cart button{
+  color:white;
+  
+  height: 33px;
+  
+  background-color: #ab7a5f;
+  border:none;
+  font-size: 1.1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.div-cart button:hover
+{
+   cursor: pointer;
+   color :#ab7a5f;
+   background-color: #d7d7d8;
+}
 .clear-btn
 { width: 110px;
   height: 28px;

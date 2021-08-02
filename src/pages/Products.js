@@ -3,8 +3,10 @@ import {FilterContext} from '../utils/filterContext';
 import {ProductContext} from '../utils/ProductContext.js';
 import {CartContext} from '../utils/CartContext.js';
 import Filter from '../components/Filter';
+import Loading from '../components/Loading';
 import {FiGrid ,FiList} from "react-icons/fi";
 import { Link } from 'react-router-dom';
+import {formatPrice} from '../utils/helper'
 export default function Products() {
     
     const pro = useContext(FilterContext);
@@ -13,7 +15,7 @@ export default function Products() {
     const {products_loading} = useContext(ProductContext);
     if(products_loading == true)
     {
-        return <h1>Loading ...</h1>
+        return <Loading/>
     }
     return (
         <div>
@@ -58,10 +60,12 @@ export default function Products() {
                                     <img src={Img} alt="" width="300px" height="175px"/>
                                 
                           
-                                <div>
-                                <button onClick={()=>CartProduct.addtocart(product,Id,color,amount)}>Add to Cart </button>
-                                    <span className="namee">{Name}</span>
-                                    <span style={{color:'#ab7a5f'}}>{Price}</span>
+                                <div className="div-cart">
+                                    <div>
+                                        <span className="namee">{Name}</span>
+                                        <span style={{color:'#ab7a5f'}}>{formatPrice(Price)}</span>
+                                    </div>
+                                    <button onClick={()=>CartProduct.addtocart(product,Id,color,amount)}>Add to Cart </button>
                                 </div>
                             </div>
                         
