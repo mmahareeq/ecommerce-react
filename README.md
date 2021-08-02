@@ -17,7 +17,7 @@ Clone the repository using CLR (Command Line Interface) of your choice as follow
 Navigate to the location where you want the app files to be using CLR.
 Copy git clone https://github.com/mmahareeq/ecommerce-react.git and past it into the CLR then hit Enter
 You can then use any text editor of your choice to view the code. VScode or Atom are recommended though.
-
+- branch finalversion . 
 ### User Story: 
 
 ### The Buyer can do this:
