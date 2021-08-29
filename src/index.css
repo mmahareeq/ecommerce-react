@@ -11,6 +11,9 @@ body {
   
 
 }
+.page {
+  min-height: calc(80vh - 10rem);
+}
 .section-body p
 {
    line-height: 2;
@@ -31,6 +34,7 @@ body {
   width: 50%;
 
 }
+
 .section-info button
 {
   color:white;
@@ -142,4 +146,8 @@ h2{
 
   
 }
-
+@media screen and (min-width: 992px){
+   .section-center {
+    width: 95vw;
+   }
+  }
