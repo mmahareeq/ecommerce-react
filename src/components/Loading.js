@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 export default function Loading() {
     return (
-        <Load>
+        <Load className="page">
             <h1>Loading ...</h1>
         </Load>
     )
