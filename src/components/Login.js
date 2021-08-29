@@ -12,7 +12,7 @@ export default function Login() {
             <Link to='/Cart'>
                 <Button >
                     <span style={{margin:"8px"}}>Cart</span>
-                    <FaCartPlus/>
+                    {/* <FaCartPlus/>*/}
                     <Span className="count">{cartProduct.cart.length}</Span>
                 </Button>
                 
