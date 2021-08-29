@@ -4,6 +4,7 @@ import {ProductContext} from '../utils/ProductContext.js';
 import {CartContext} from '../utils/CartContext.js';
 import Filter from '../components/Filter';
 import Loading from '../components/Loading';
+import PageHero from '../components/PageHero'
 import {FiGrid ,FiList} from "react-icons/fi";
 import { Link } from 'react-router-dom';
 import {formatPrice} from '../utils/helper'
@@ -19,8 +20,8 @@ export default function Products() {
     }
     return (
         <div>
-            <h1>Home/Products</h1>
-           {  <section className="section-bd">
+            <PageHero tittle="Products"/>
+           { <section className="page "> <div className="section-bd ">
                 <Filter/>
                 <div className="product-part"> 
                 <div className="display-pt">
@@ -73,6 +74,7 @@ export default function Products() {
                     })}
                 </div> 
                </div> 
+            </div>
             </section>}           
 
         </div>
