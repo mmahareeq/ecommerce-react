@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {links} from '../utils/contents';
-import { Link } from 'react-router-dom';
+
 import Login from '../components/Login.js';
 
 

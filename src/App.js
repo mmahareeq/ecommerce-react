@@ -45,7 +45,7 @@ function App() {
                
                 </Route>
               
-              <Route path="/About">
+              <Route path="/about">
                 <About/>
               </Route>
             </Switch>
