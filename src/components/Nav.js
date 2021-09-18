@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {links} from '../utils/contents';
-
+import { Link } from 'react-router-dom';
 import Login from '../components/Login.js';
 
 
@@ -16,7 +16,7 @@ export default function Nav() {
           <Ul>
               {links.map( link =>{
                   return (
-                  <Li key={link.id}><A href={link.url}>{link.text}</A></Li>
+                  <Li key={link.id}><Link to={link.url}><A>{link.text}</A></Link></Li>
                   )
               })}
           </Ul>
