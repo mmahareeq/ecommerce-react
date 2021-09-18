@@ -6,7 +6,7 @@ export default function CartPage() {
     {console.log(CartProduct)}
     
     return (
-        <div>
+        <div className="page section-body" style={{justifyContent:'center'}}>
             {console.log(CartProduct.cart)}
             <CartContent></CartContent>
            

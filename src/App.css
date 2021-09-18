@@ -190,11 +190,6 @@ select{
   grid-template-columns:25% 75%   ;
   margin-top: 2rem;
 }
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
