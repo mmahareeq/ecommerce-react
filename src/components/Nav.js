@@ -16,7 +16,7 @@ export default function Nav() {
           <Ul>
               {links.map( link =>{
                   return (
-                  <Li key={link.id}><Link to={link.url}><A>{link.text}</A></Link></Li>
+                  <Li key={link.id}><Link to={link.url} className="link">{link.text}</Link></Li>
                   )
               })}
           </Ul>
@@ -34,7 +34,11 @@ const Header =  styled.div`
     flex-direction:row;
     justify-content:space-around;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-
+    .link
+    {
+        text-decoration: none;
+        color: #324d67;
+    }
 `;
 
 const Ul = styled.ul`
@@ -51,8 +55,4 @@ const Li = styled.li`
     letter-spacing:0.1rem;
     
 `;
-const A = styled.a`
-    text-decoration: none;
-    color: #324d67;
 
-`;
