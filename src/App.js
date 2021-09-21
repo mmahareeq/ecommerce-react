@@ -10,7 +10,7 @@ import CartPage from './pages/CartPage';
 import About from './pages/About.js';
 import Homepage from './pages/Homepage';
 
-import {BrowserRouter as Router ,Switch,Route} from 'react-router-dom';
+import {BrowserRouter as Router ,Switch,Route,Redirect} from 'react-router-dom';
 
 import DetailsProduct from './components/DetailsProduct.js';
 
@@ -23,23 +23,23 @@ function App() {
         
           <Nav/>
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/home">
                 
                 <Homepage/>
                 <FeatureProducy/>
                 <Services/> 
               </Route>
               
-              <Route exact path="/products">
+              <Route  path="/products">
                 
                   <Products/>
                 
                 
               </Route>
-              <Route exact path='/products/:Id' children={<DetailsProduct/>}/>
+              <Route  path='/products/:Id' children={<DetailsProduct/>}/>
                  
                  
-              <Route exact path='/Cart'>
+              <Route  path='/Cart'>
                 
                   <CartPage/>
                
@@ -48,6 +48,7 @@ function App() {
               <Route path="/about">
                 <About/>
               </Route>
+              <Redirect from='/' to='/home'/>
             </Switch>
           
         
