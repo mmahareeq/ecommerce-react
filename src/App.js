@@ -26,7 +26,7 @@ function App() {
               <Route exact path="/home">
                 
                 <Homepage/>
-                <FeatureProducy/>
+                <FeatureProducy />
                 <Services/> 
               </Route>
               

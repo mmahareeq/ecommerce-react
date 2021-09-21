@@ -2,6 +2,7 @@ import React,{useContext} from 'react'
 import {ProductContext}  from '../utils/ProductContext.js'
 import styled from 'styled-components';
 import {formatPrice} from '../utils/helper'
+import {Link} from 'react-router-dom' 
 export default function FeatureProducy(props) {
     const Productss = useContext(ProductContext);
 
@@ -33,7 +34,7 @@ export default function FeatureProducy(props) {
                         )
                 })}
             </div> 
-            <Buttons>ALL PRODUCTS</Buttons>
+            <Link to="/products"><Buttons>ALL PRODUCTS</Buttons></Link>
         </Wrapper>
     )
 }
@@ -53,9 +54,9 @@ const Buttons = styled.button`
   color:white;
   width: 200px;
   height: 45px;
-  
+  cursor:pointer;
   background-color: #ab7a5f;
-  margin-left:35rem;
+  margin-left:1rem;
   border:none;
   font-size: 1.2rem;
   border-radius: 0.2rem;

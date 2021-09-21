@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import {Link} from 'react-router-dom'
 export default function Homepage() {
     return (
         <div>
@@ -12,9 +12,11 @@ export default function Homepage() {
                     at sed omnis corporis doloremque possimus velit! Repudiandae nisi odit,
                      odio ducimus, obcaecati libero et quia tempora excepturi quis alias?
                   </p>
-                  <button>
-                      SHOP NOW
-                  </button>
+                  <Link to="/products">
+                      <button style={{'cursor':'pointer'}}>
+                        SHOP NOW
+                     </button>
+                  </Link>
               </div>
               <div >
                   <img id="img1" src="https://react-course-comfy-sloth-store.netlify.app/static/media/hero-bcg.a876f19f.jpeg" alt=""/>
