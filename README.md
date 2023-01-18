@@ -1,6 +1,6 @@
 # ecommerce-react
 
-### Why i did this?
+### Why I did this?
 -This app was designed and implemented to make people's lifes easier selling and buying things online.
 -It aims at developing our web development skills and gaining new skills other than those acquired during the program.
 
