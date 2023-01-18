@@ -34,7 +34,7 @@ export default function FeatureProducy(props) {
                         )
                 })}
             </div> 
-            <Link to="/products"><Buttons>ALL PRODUCTS</Buttons></Link>
+            <Link to="/products"><Buttons>All Products</Buttons></Link>
         </Wrapper>
     )
 }
@@ -42,7 +42,10 @@ const Wrapper = styled.div`
 display:flex;
 flex-direction:column;
 text-align:center;
-justify-content:center`;
+justify-content:center;
+background: #f1f5f8;
+`;
+
 const Frame = styled.div`
 display:flex;
 flex-direction:row;
@@ -60,6 +63,7 @@ const Buttons = styled.button`
   border:none;
   font-size: 1.2rem;
   border-radius: 0.2rem;
+  margin-bottom: 10px;
   `;
 /* <img src={Productss.Product[0].image} alt="" width="350px" height="225px"/>
                 <Frame>

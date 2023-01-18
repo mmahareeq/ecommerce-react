@@ -16,7 +16,7 @@ body {
 }
 .section-body p
 {
-   line-height: 2;
+   line-height: 1.8;
     max-width: 30em;
     margin-bottom: 2rem;
     color: #617d98;
@@ -30,7 +30,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   width: 50%;
 
 }

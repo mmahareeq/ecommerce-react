@@ -15,10 +15,14 @@ const Footerr = styled.div`
    background-color:black;
    color:white;
    height:80px;
+   letter-spacing:0.1rem;
+   align-items: center;
    
 `; 
 const Comfy = styled.span`
   color: #ab7a5f;
   margin-left:0.2rem;
+  margin-right:0.2rem;
+ 
   
 `;
