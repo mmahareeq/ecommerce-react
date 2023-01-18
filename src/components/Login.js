@@ -37,19 +37,23 @@ const Button = styled.button`
     margin-top:22px;
     font-weight:bold;
     cursor:pointer;
+    position: relative;
     
 `;
 const Span = styled.span`
  
   position: absolute;
-  top:13px;
+  top: -10px;
+  right: -10px;
   background:#ab7a5f;
   color:white;
   border-radius:50%;
   font-size:0.8rem;
-  padding:3px;
+  padding:4px;
   width: 14px;
   height: 14px;
+  display: flex;
+  justify-content: center;
   
 
   
