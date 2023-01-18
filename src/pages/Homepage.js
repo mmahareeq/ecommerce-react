@@ -1,6 +1,9 @@
 import React from 'react'
 
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import image2 from '../assests/hero-bcg-2.789918645915c8acb36f.jpeg';
+import image1 from '../assests/hero-bcg.a876f19f6786a3aca992.jpeg';
+
 export default function Homepage() {
     return (
         <div>
@@ -19,8 +22,8 @@ export default function Homepage() {
                   </Link>
               </div>
               <div >
-                  <img id="img1" src="https://react-course-comfy-sloth-store.netlify.app/static/media/hero-bcg.a876f19f.jpeg" alt=""/>
-                  <img  id="img2" src="https://react-course-comfy-sloth-store.netlify.app/static/media/hero-bcg-2.78991864.jpeg" alt=""/>
+                  <img id="img1" src={image1} alt=""/>
+                  <img  id="img2" src={image2} alt=""/>
               </div>
            </section> 
         </div>

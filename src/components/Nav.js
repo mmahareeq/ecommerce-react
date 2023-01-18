@@ -1,34 +1,34 @@
 import React from 'react';
 import styled from 'styled-components';
-import {links} from '../utils/contents';
-import { Link , NavLink } from 'react-router-dom';
+import { links } from '../utils/contents';
+import { Link, NavLink } from 'react-router-dom';
 import Login from '../components/Login.js';
-
+import logo from '../assests/logo.221f6b13e6eaaad5828372464f73a1a4.svg'
 
 export default function Nav() {
     return (
         <Header >
-          <div>
-             
-                <img src="https://react-course-comfy-sloth-store.netlify.app/static/media/logo.221f6b13.svg" alt="comfy sloth"/>
-              
-          </div>
-          <Ul>
-              {links.map( link =>{
-                  return (
-                  <Li key={link.id}><NavLink to={link.url} className="link">{link.text}</NavLink></Li>
-                  )
-              })}
-          </Ul>
-          
             <div>
-               <Login/>
+
+                <img src={logo} alt="comfy sloth" />
+
+            </div>
+            <Ul>
+                {links.map(link => {
+                    return (
+                        <Li key={link.id}><NavLink to={link.url} className="link">{link.text}</NavLink></Li>
+                    )
+                })}
+            </Ul>
+
+            <div>
+                <Login />
             </div>
         </Header>
     )
 }
 
-const Header =  styled.div`
+const Header = styled.div`
 
     display:flex;
     flex-direction:row;

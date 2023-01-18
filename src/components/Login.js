@@ -28,7 +28,7 @@ export default function Login() {
 
 const Button = styled.button`
     margin:10px;
-    color: #324d67;
+    color: #2b3f52;
     font-size: 1.3rem;
     text-transform: capitalize;
     letter-spacing:0.1rem;
@@ -42,14 +42,14 @@ const Button = styled.button`
 const Span = styled.span`
  
   position: absolute;
-  top:10px;
+  top:13px;
   background:#ab7a5f;
   color:white;
   border-radius:50%;
   font-size:0.8rem;
   padding:3px;
-  width:12px;
-  height:16px;
+  width: 14px;
+  height: 14px;
   
 
   
