@@ -5,9 +5,9 @@ export default function PageHero(props) {
     return (
         <Wrapper>
         
-            <h2>
+            <h3>
                <Link to='/'> Home</Link> / {props.tittle} 
-            </h2>
+            </h3>
         
         </Wrapper>
     )
@@ -16,6 +16,7 @@ export default function PageHero(props) {
 const Wrapper = styled.section`
 
 background-color:#EADED7;
+font-size: 1.4rem;
 text-align:center;
 width:100%;
 display:flex;

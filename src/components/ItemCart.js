@@ -25,8 +25,7 @@ import {formatPrice} from '../utils/helper'
                                 
                 <div>
                     <h5 className="nameproduct">{name}</h5>
-                    <p>Color:  <span style={{background:color}}>" "</span></p>
-                    
+                    <p>Color:  <span style={{background:color, width:'20px', height: '20px', display: 'inline-block'}}>&nbsp; </span></p>  
                 </div>
             </div>
 

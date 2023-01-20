@@ -70,6 +70,8 @@ const Wrapper = styled.div`
     }
     margin: 0 auto;
     max-width:1170px;
+    min-height:60%;
+    height: auto;
 `;
 
 const Rapper = styled.div`

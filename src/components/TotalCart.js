@@ -29,7 +29,8 @@ const Wrapper = styled.div`
    {
     border:1px solid #9eb2c7;
     width:30%; 
-    padding:1.5rem;
+    padding:1.3rem;
+    margin:-7px; 
    
    }
    h4
