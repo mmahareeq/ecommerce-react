@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ecommerce-react/static/css/main.820ab65f.chunk.css",
+    "main.css": "/ecommerce-react/static/css/main.ecebf93c.chunk.css",
     "main.js": "/ecommerce-react/static/js/main.9fcbd604.chunk.js",
     "main.js.map": "/ecommerce-react/static/js/main.9fcbd604.chunk.js.map",
     "runtime-main.js": "/ecommerce-react/static/js/runtime-main.5e985638.js",
@@ -10,7 +10,7 @@
     "static/js/3.85e3c002.chunk.js": "/ecommerce-react/static/js/3.85e3c002.chunk.js",
     "static/js/3.85e3c002.chunk.js.map": "/ecommerce-react/static/js/3.85e3c002.chunk.js.map",
     "index.html": "/ecommerce-react/index.html",
-    "static/css/main.820ab65f.chunk.css.map": "/ecommerce-react/static/css/main.820ab65f.chunk.css.map",
+    "static/css/main.ecebf93c.chunk.css.map": "/ecommerce-react/static/css/main.ecebf93c.chunk.css.map",
     "static/js/2.c62886ae.chunk.js.LICENSE.txt": "/ecommerce-react/static/js/2.c62886ae.chunk.js.LICENSE.txt",
     "static/media/hero-bcg-2.789918645915c8acb36f.78991864.jpeg": "/ecommerce-react/static/media/hero-bcg-2.789918645915c8acb36f.78991864.jpeg",
     "static/media/hero-bcg.a876f19f6786a3aca992.a876f19f.jpeg": "/ecommerce-react/static/media/hero-bcg.a876f19f6786a3aca992.a876f19f.jpeg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.5e985638.js",
     "static/js/2.c62886ae.chunk.js",
-    "static/css/main.820ab65f.chunk.css",
+    "static/css/main.ecebf93c.chunk.css",
     "static/js/main.9fcbd604.chunk.js"
   ]
 }
