@@ -43,8 +43,9 @@ body {
   font-weight: 400;
   background-color: #ab7a5f;
   border:none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border-radius: 0.2rem;
+  margin-bottom: 10px;
   
   
 }
@@ -64,16 +65,17 @@ h2{
 #img1
 {
   width:500px;
-  height:520px;
+  height:440px;
   position:absolute;
   margin-left:40px;
+  border-radius: 0.5rem;
 }
 #img2
 {
   width:250px;
   height:150px;
   position: relative;
-  top:73%;
+  top:65%;
   border-radius: 0.5rem;
   
 }
