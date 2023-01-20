@@ -65,7 +65,7 @@ h2{
 #img1
 {
   width:500px;
-  height:440px;
+  height:340px;
   position:absolute;
   margin-left:40px;
   border-radius: 0.5rem;
@@ -75,7 +75,7 @@ h2{
   width:250px;
   height:150px;
   position: relative;
-  top:65%;
+  top:58%;
   border-radius: 0.5rem;
   
 }
